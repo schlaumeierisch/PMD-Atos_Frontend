@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.calendar_screen.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar">
+        <action
+            android:id="@+id/action_calendarFragment_to_pickDoctorFragment"
+            app:destination="@id/pickDoctorFragment" />
+        <action
+            android:id="@+id/action_calendarFragment_to_seeOrCancelAppointment"
+            app:destination="@id/seeOrCancelAppointment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickDoctorFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.make_appointment.PickDoctorFragment"
+        android:label="fragment_pick_doctor"
+        tools:layout="@layout/fragment_pick_doctor">
+        <action
+            android:id="@+id/action_pickDoctorFragment_to_pickDateFragment"
+            app:destination="@id/pickDateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickDateFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.make_appointment.PickDateFragment"
+        android:label="fragment_pick_date"
+        tools:layout="@layout/fragment_pick_date">
+        <action
+            android:id="@+id/action_pickDateFragment_to_pickTimeFragment"
+            app:destination="@id/pickTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickTimeFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.make_appointment.PickTimeFragment"
+        android:label="PickTimeFragment">
+        <action
+            android:id="@+id/action_pickTimeFragment_to_confirmAppointmentFragment"
+            app:destination="@id/confirmAppointmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmAppointmentFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.make_appointment.ConfirmAppointmentFragment"
+        android:label="ConfirmAppointmentFragment" >
+        <action
+            android:id="@+id/action_confirmAppointmentFragment_to_completedMakingAppointmentFragment"
+            app:destination="@id/completedMakingAppointmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeOrCancelAppointment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.see_or_cancel_appointment.SeeOrCancelAppointment"
+        android:label="fragment_see_or_cancel_appointment"
+        tools:layout="@layout/fragment_see_or_cancel_appointment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="nl.medify.patientuser.feature_home.presentation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_medicalRecordFragment"
+            app:destination="@id/medicalRecordFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_medicationListFragment"
+            app:destination="@id/medicationListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_permissionsMedicalRecordFragment"
+            app:destination="@id/permissionsMedicalRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicalRecordFragment"
+        android:name="nl.medify.patientuser.feature_medical_record.presentation.MedicalRecordFragment"
+        android:label="MedicalRecordFragment" >
+        <action
+            android:id="@+id/action_medicalRecordFragment_to_medicationListFragment"
+            app:destination="@id/medicationListFragment" />
+        <action
+            android:id="@+id/action_medicalRecordFragment_to_diagnosisListFragment"
+            app:destination="@id/diagnosisListFragment" />
+        <action
+            android:id="@+id/action_medicalRecordFragment_to_noteListFragment"
+            app:destination="@id/noteListFragment" />
+        <action
+            android:id="@+id/action_medicalRecordFragment_to_exerciseListFragment"
+            app:destination="@id/exerciseListFragment" />
+        <action
+            android:id="@+id/action_medicalRecordFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="nl.medify.patientuser.feature_notes.presentation.NoteListFragment"
+        android:label="NoteListFragment" >
+        <action
+            android:id="@+id/action_noteListFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_noteListFragment_to_medicalRecordFragment"
+            app:destination="@id/medicalRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseListFragment"
+        android:name="nl.medify.patientuser.feature_exercises.presentation.ExerciseListFragment"
+        android:label="ExerciseListFragment" >
+        <action
+            android:id="@+id/action_exerciseListFragment_to_medicalRecordFragment"
+            app:destination="@id/medicalRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicationListFragment"
+        android:name="nl.medify.patientuser.feature_medication.presentation.MedicationListFragment"
+        android:label="MedicationListFragment" >
+        <action
+            android:id="@+id/action_medicationListFragment_to_medicalRecordFragment"
+            app:destination="@id/medicalRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diagnosisListFragment"
+        android:name="nl.medify.patientuser.feature_diagnosis.presentation.DiagnosisListFragment"
+        android:label="DiagnosisListFragment" >
+        <action
+            android:id="@+id/action_diagnosisListFragment_to_medicalRecordFragment"
+            app:destination="@id/medicalRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="nl.medify.patientuser.feature_notes.presentation.AddNoteFragment"
+        android:label="AddNoteFragment" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_noteListFragment"
+            app:destination="@id/noteListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completedMakingAppointmentFragment"
+        android:name="nl.medify.patientuser.feature_calendar.presentation.make_appointment.CompletedMakingAppointmentFragment"
+        android:label="fragment_completed_making_appointment"
+        tools:layout="@layout/fragment_completed_making_appointment" >
+        <action
+            android:id="@+id/action_completedMakingAppointmentFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionsMedicalRecordFragment"
+        android:name="nl.medify.patientuser.feature_permission_linking.feature_medical_record.presentation.PermissionsMedicalRecordFragment"
+        android:label="PermissionsMedicalRecordFragment" >
+        <action
+            android:id="@+id/action_permissionsMedicalRecordFragment_to_careProvidersListFragment"
+            app:destination="@id/careProvidersListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/careProvidersListFragment"
+        android:name="nl.medify.patientuser.feature_permission_linking.feature_care_providers.presentation.CareProvidersListFragment"
+        android:label="CareProvidersListFragment" >
+        <action
+            android:id="@+id/action_careProvidersListFragment_to_fragmentDateConfirmation"
+            app:destination="@id/fragmentDateConfirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDateConfirmation"
+        android:name="nl.medify.patientuser.feature_permission_linking.feature_date_confirmation.FragmentDateConfirmation"
+        android:label="FragmentDateConfirmation" >
+        <action
+            android:id="@+id/action_fragmentDateConfirmation_to_fragmentPermissionsSharingOverview"
+            app:destination="@id/fragmentPermissionsSharingOverview" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPermissionsSharingOverview"
+        android:name="nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.presentation.FragmentPermissionsSharingOverview"
+        android:label="fragment_permissions_sharing_overview"
+        tools:layout="@layout/fragment_permissions_sharing_overview" >
+        <action
+            android:id="@+id/action_fragmentPermissionsSharingOverview_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

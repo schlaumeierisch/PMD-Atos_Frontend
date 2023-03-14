@@ -1,0 +1,183 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Medify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blueAccent</item>
+        <item name="colorPrimaryVariant">@color/lightBlueAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Medify.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blueAccent</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Medify</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="fontFamily">@font/airbnbcereal_black</item>
+    </style>
+
+    <!-- Big buttons like the one used in home. (the big ones) -->
+    <style name="button_big">
+        <item name="android:width">300dp</item>
+        <item name="android:height">128dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Big buttons like the one used in home. (the big ones) -->
+    <style name="button_big_with_icon_dark_blue">
+        <item name="android:width">320dp</item>
+        <item name="android:height">128dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Big buttons like the one used in home. (the big ones) -->
+    <style name="button_big_with_icon_light_blue">
+        <item name="android:width">320dp</item>
+        <item name="android:height">128dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Standard button with the arrow -> -->
+    <style name="button_long">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Standard button with the arrow -> -->
+    <style name="button_medium" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_secondary_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Titles of pages (such as Permissions or Observations), so not like subtitles. -->
+    <style name="bold_label_title">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Clickable text like the one used in home. (see the rest for today) -->
+    <style name="clickable_text_button">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+        <item name="android:textColor">@color/blueAccent</item>
+    </style>
+
+    <!-- Subtitles like the one used in calendar. (Your appointments) -->
+    <style name="bold_label_subtitle">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Subtitles like the one used in calendar. (Your appointments) -->
+    <style name="confirm_appointment_subtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Subtitle of appointment [kind of doctor] like the one used in calendar. (Your appointments) -->
+    <style name="bold_label_subtitle_appointment">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Dropdown menu items -->
+    <style name="dropdown_menu_item">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Dropdown menu items -->
+    <style name="input_text">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/airbnbcereal_book</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Subtitle of appointment like the one used in calendar. (Your appointments) -->
+    <style name="label_information_text_white">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/airbnbcereal_book</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Subtitle of appointment like the one used in calendar. (Your appointments) -->
+    <style name="label_information_text_black">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/airbnbcereal_book</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_small">
+        <item name="android:width">204dp</item>
+        <item name="android:height">128dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!-- Title of observation/note -->
+    <style name="ObservationCardTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Date of observation/note -->
+    <style name="ObservationCardDate">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+    </style>
+
+    <!-- Additional information of observation/note -->
+    <style name="ObservationCardInformation">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+    </style>
+
+    <style name="ivProfile">
+        <item name="android:layout_width">152dp</item>
+        <item name="android:layout_height">176dp</item>
+    </style>
+
+    <!-- Title of exercise -->
+    <style name="ExerciseCardTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/airbnbcereal_bold</item>
+    </style>
+
+    <!-- Advisor of exercise -->
+    <style name="ExerciseCardAdvisor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+    </style>
+
+    <!-- Additional information of exercise -->
+    <style name="ExerciseCardInformation">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/airbnbcereal_medium</item>
+    </style>
+
+</resources>

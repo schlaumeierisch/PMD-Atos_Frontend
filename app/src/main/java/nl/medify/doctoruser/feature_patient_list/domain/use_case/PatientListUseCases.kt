@@ -1,0 +1,9 @@
+package nl.medify.doctoruser.feature_patient_list.domain.use_case
+
+import nl.medify.doctoruser.feature_patient_list.domain.use_case.get_patients_of_care_provider_by_id.GetPatientsOfCareProviderByIdUseCase
+import nl.medify.doctoruser.feature_patient_list.domain.use_case.get_patients_of_general_practitioner_by_id.GetPatientsOfGeneralPractitionerByIdUseCase
+
+data class PatientListUseCases(
+    val getPatientsOfGeneralPractitionerByIdUseCase: GetPatientsOfGeneralPractitionerByIdUseCase,
+    val getPatientsOfCareProviderByIdUseCase: GetPatientsOfCareProviderByIdUseCase
+)

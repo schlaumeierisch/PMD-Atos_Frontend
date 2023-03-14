@@ -1,0 +1,9 @@
+package nl.medify.doctoruser.feature_medication.presentation.vm
+
+import nl.medify.doctoruser.feature_medication.domain.model.Medication
+
+data class MedicationListState(
+    val isLoading: Boolean = false,
+    val medicationList: List<Medication> = emptyList(),
+    val error: String = ""
+)

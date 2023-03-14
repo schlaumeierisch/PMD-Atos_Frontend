@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDiagnosisTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/airbnbcereal_bold"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Diagnosis Name" />
+
+    <TextView
+        android:id="@+id/tvDiagnosisDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/airbnbcereal_medium"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/diagnosisDate"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/rbSelectDiagnosis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiagnosisTitle" />
+
+    <TextView
+        android:id="@+id/tvDiagnosisCause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/airbnbcereal_medium"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/rbSelectDiagnosis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiagnosisDate"
+        tools:text="Diagnosis Cause" />
+
+    <TextView
+        android:id="@+id/tvDiagnosisTreatment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/airbnbcereal_medium"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/rbSelectDiagnosis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiagnosisCause"
+        tools:text="Diagnosis Treatment" />
+
+    <TextView
+        android:id="@+id/tvDiagnosisAdvice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/airbnbcereal_medium"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rbSelectDiagnosis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiagnosisTreatment"
+        tools:text="Diagnosis Advice" />
+
+    <CheckBox
+        android:id="@+id/rbSelectDiagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:buttonTint="@color/blueAccent"
+        android:checked="false"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

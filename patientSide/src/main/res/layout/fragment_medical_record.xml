@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/container"
+        layout="@layout/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMedication"
+        style="@style/button_big_with_icon_dark_blue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_primary_color"
+        android:drawableBottom="@drawable/medication_icon"
+        android:paddingBottom="16dp"
+        android:text="@string/capital_medication"
+        app:layout_constraintBottom_toTopOf="@+id/btnDiagnosis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDiagnosis"
+        style="@style/button_big_with_icon_dark_blue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_primary_color"
+        android:drawableBottom="@drawable/diagnosis_icon"
+        android:paddingBottom="16dp"
+        android:text="@string/capital_diagnosis"
+        app:layout_constraintBottom_toTopOf="@+id/btnExercises"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMedication" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExercises"
+        style="@style/button_big_with_icon_dark_blue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_primary_color"
+        android:drawableBottom="@drawable/exercises_icon"
+        android:paddingBottom="16dp"
+        android:text="@string/capital_exercises"
+        app:layout_constraintBottom_toTopOf="@+id/btnNotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDiagnosis" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNotes"
+        style="@style/button_big_with_icon_dark_blue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_primary_color"
+        android:drawableBottom="@drawable/notes_icon"
+        android:paddingBottom="16dp"
+        android:text="@string/capital_notes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnExercises" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

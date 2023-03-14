@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Medify</string>
+    <string name="menu_item_calendar">Calendar</string>
+    <string name="menu_item_home">Home</string>
+    <string name="treatments_for_today">Treatments for today</string>
+    <string name="click_to_see_rest_today">Click here to see the rest for today</string>
+    <string name="book_appointment">Book appointment</string>
+    <string name="actions">Actions</string>
+    <string name="permissions">Permissions</string>
+    <string name="exercises">Exercises</string>
+    <string name="observations">Observations</string>
+    <string name="welcome_txt">Welcome, \nJesse Kooi</string>
+    <string name="treatments_txt">Treatments for today</string>
+    <string name="show_treatments_day_txt">Click here to see the rest for today</string>
+    <string name="actions_txt">Actions</string>
+    <string name="btn_manage_permissions">MANAGE PERMISSIONS</string>
+    <string name="profile_image_txt">Profile Image</string>
+    <string name="appointments">Appointments for today</string>
+    <string name="medication_name">Medicine name</string>
+    <string name="medication_information">Medicine info</string>
+    <string name="progress">Progress:</string>
+    <string name="progress_days">Day %1$s of %2$s</string>
+    <string name="GP">GP</string>
+
+    <string name="profile_txt">PROFILE</string>
+    <string name="name_txt">No patient data available</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="birthdate_txt_placeholder">Error, No patient data available</string>
+    <string name="last_name_txt_placeholder">Error, No patient data available</string>
+    <string name="last_name_txt">Last name:</string>
+    <string name="capital_exercises">EXERCISES</string>
+    <string name="gender">Gender:</string>
+    <string name="capital_care_providers">CARE PROVIDERS</string>
+    <string name="capital_diagnosis">DIAGNOSIS</string>
+
+    <!-- medical record -->
+    <string name="medical_record">Medical Record</string>
+    <string name="capital_medical_record">MEDICAL RECORD</string>
+
+    <!-- medication -->
+    <string name="medication">Medication</string>
+    <string name="capital_medication">MEDICATION</string>
+    <string name="search_for_medication_input">Search for medication…</string>
+    <string name="add_medication_button">ADD MEDICATION</string>
+
+    <!-- patient list -->
+    <string name="patient_list">Patient List</string>
+    <string name="capital_patient_list">PATIENT LIST</string>
+    <string name="search_for_patients_input">Search for patients…</string>
+    <string name="invite_new_patient_button">INVITE NEW PATIENT</string>
+
+    <!-- note list -->
+    <string name="notes">Notes</string>
+    <string name="capital_notes">NOTES</string>
+    <string name="search_for_note_input">Search for notes…</string>
+    <string name="add_note_button">ADD NOTE</string>
+    <string name="pop_up">Double check!</string>
+
+
+    <!-- exercise list -->
+    <string name="exercise_title_txt">Exercise</string>
+    <string name="search_for_exercise_input">Search for exercises…</string>
+    <string name="description_txt">Description</string>
+    <string name="advisor_txt">Advisor:</string>
+    <string name="progress_txt">Progress:</string>
+    <string name="medical_record_txt">Medical Record</string>
+    <string name="add_exercise_button">ADD</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- diagnose list -->
+    <string name="diagnosis">Diagnosis</string>
+    <string name="diagnosis_capital">DIAGNOSIS</string>
+    <string name="cause_value">Cause: %1$s </string>
+    <string name="treatment_value">Treatment: %1$s </string>
+    <string name="advice_value">Advice: %1$s </string>
+
+    <!-- patient profile -->
+    <string name="patient_profile">Patient Profile</string>
+    <string name="more_info_button">More Info</string>
+    <string name="your_appointments">Your appointments</string>
+    <string name="pick_a_doctor_or_specialist">Pick a doctor or specialist 👨‍⚕️️</string>
+    <string name="doctor_slash_specialist">Doctor/Specialist</string>
+    <string name="step_count">Step %d of 4</string>
+    <string name="next">next</string>
+    <string name="reason_for_visit">Reason for visit ⁉️</string>
+    <string name="type_reason_for_visit">Type your reason for a visit here…</string>
+    <string name="pick_an_available_date">Pick an available date 🗓️</string>
+    <string name="previous">previous</string>
+    <string name="pick_an_available_time">Pick an available time 🕓</string>
+    <string name="confirm_the_reservation">Confirm the reservation ✅</string>
+    <string name="doctor_slash_specialist_with_emoji">Doctor/Specialist 👨</string>
+    <string name="location_with_emoji">Location 📍</string>
+    <string name="time_and_date_with_emojis">Time and date 📅 🕓</string>
+    <string name="missing_out">You are missing out!</string>
+    <string name="are_you_sure_calendar_permission">Are you sure you do not want to allow access to your calendar? This way you can get easily reminded for your future appointments!</string>
+    <string name="allow">Allow</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="confirm">Confirm</string>
+
+
+    <!-- appointment list -->
+    <string name="fill_in_all_fields">Please fill in all fields.</string>
+    <string name="confirmed_reservation">Confirmed reservation ✅</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="patient_with_emoji">Patient 🤕</string>
+    <string name="doctor_title_placeholder">Some doctor name</string>
+    <string name="address_placeholder">Some address</string>
+    <string name="date_placeholder">Some date</string>
+    <string name="reason_for_visit_placeholder">Some reason to visit</string>
+    <string name="nothing_for_today_txt">Nothing for today</string>
+    <string name="no_activities_txt">You have no activities for today!</string>
+    <string name="diagnoseName">Diagnosis: </string>
+    <string name="diagnosisTreatment">Treatment: </string>
+    <string name="diagnosisAdvice">Advice: </string>
+    <string name="diagnosisDate">Date: </string>
+    <string name="DiagnosisCause">Cause: </string>
+    <string name="select_care_provider_info">Select a care provider that you want to give permissions to</string>
+    <string name="cpname">care provider name</string>
+    <string name="cprole">care provider role</string>
+
+    <!-- Permission linking list -->
+    <string name="step_one_four">Step 1 of 4</string>
+    <string name="step_two_three">Step 2 of 4</string>
+    <string name="step_three_four">Step 3 of 4</string>
+    <string name="step_four_four">Step 4 of 4</string>
+    <string name="specialism">Specialism:</string>
+    <string name="manualy_stopped">Or share until manually stopped:</string>
+    <string name="select_end_date">Select the end date of the information sharing</string>
+    <string name="warning_toast">Make sure to select a date</string>
+    <string name="category_title">Category Title</string>
+    <string name="item_description">Item description</string>
+    <string name="item_title">Item Title</string>
+    <string name="category_medicine">Medicine</string>
+    <string name="cause">Cause</string>
+    <string name="treatment">Treatment</string>
+    <string name="advice">Advice</string>
+    <string name="no_care_provider_selected_warning">You did not select any care provider</string>
+    <string name="no_data_selected_warning">You did not select any data</string>
+</resources>

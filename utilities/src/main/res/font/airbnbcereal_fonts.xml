@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- namespace 'xmlns:app' is used instead of android for backwards compatibility to api level 16. -->
+
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:font="@font/airbnbcereal_black" />
+    <font app:font="@font/airbnbcereal_bold" />
+    <font app:font="@font/airbnbcereal_book" />
+    <font app:font="@font/airbnbcereal_extrabold" />
+    <font app:font="@font/airbnbcereal_light" />
+    <font app:font="@font/airbnbcereal_medium" />
+</font-family>

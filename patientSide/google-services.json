@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218568295156",
+    "project_id": "medifyauthentication",
+    "storage_bucket": "medifyauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218568295156:android:061b774b5aed9640c354a1",
+        "android_client_info": {
+          "package_name": "nl.medify.patientuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218568295156-ndj3veupdhb563o9e6u4g8rqh8ts4rl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFjoE5fs4QnczlmaptJMGpD5QRvlpbFxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218568295156-ndj3veupdhb563o9e6u4g8rqh8ts4rl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

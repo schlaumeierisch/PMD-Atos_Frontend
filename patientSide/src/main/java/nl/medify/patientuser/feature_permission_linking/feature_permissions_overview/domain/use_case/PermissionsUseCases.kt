@@ -1,0 +1,13 @@
+package nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.domain.use_case
+
+import nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.domain.use_case.post_diagnosis_permission_link.PostDiagnosisPermissionLinkUseCase
+import nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.domain.use_case.post_exercise_permission_link.PostExercisePermissionLinkUseCase
+import nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.domain.use_case.post_medication_permission_link.PostMedicationPermissionLinkUseCase
+import nl.medify.patientuser.feature_permission_linking.feature_permissions_overview.domain.use_case.post_note_permission_link.PostNotePermissionLinkUseCase
+
+data class PermissionsUseCases(
+    val postDiagnosisPermissionLinkUseCase: PostDiagnosisPermissionLinkUseCase,
+    val postExercisePermissionLinkUseCase: PostExercisePermissionLinkUseCase,
+    val postMedicationPermissionLinkUseCase: PostMedicationPermissionLinkUseCase,
+    val postNotePermissionLinkUseCase: PostNotePermissionLinkUseCase
+)

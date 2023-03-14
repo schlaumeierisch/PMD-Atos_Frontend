@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Medify</string>
+
+    <!-- login -->
+    <string name="app_description">Manage your health information easily.</string>
+    <string name="email_form">Email</string>
+    <string name="password_form">Password</string>
+    <string name="login_button">Login</string>
+
+    <!-- home -->
+    <string name="appointments">Appointments for today</string>
+=    <string name="welcome_txt">Welcome, \n%1$s %2$s</string>
+    <string name="show_treatments_day_txt">Click here to see the rest for today</string>
+    <string name="actions_txt">Actions</string>
+    <string name="btn_manage_permissions">MANAGE PERMISSIONS</string>
+    <string name="profile_image_txt">Profile Image</string>
+
+    <!-- medical record -->
+    <string name="medical_record">Medical Record</string>
+    <string name="capital_medical_record">MEDICAL RECORD</string>
+
+    <string name="progress">Progress:</string>
+    <string name="progress_days">Day %1$s of %2$s</string>
+    <string name="submit_txt">SUBMIT</string>
+    <string name="confirm_txt">CONFIRM</string>
+    <string name="next_line_txt">Next line</string>
+    <string name="pick_specialist_txt">Pick a doctor or specialist who the injury relates to:</string>
+
+    <!-- medication -->
+    <string name="medication">Medication</string>
+    <string name="medication_name">Medicine name</string>
+    <string name="medication_information">Medicine info</string>
+    <string name="capital_medication">MEDICATION</string>
+    <string name="search_for_medication_input">Search for medication…</string>
+    <string name="add_medication_button">ADD MEDICATION</string>
+
+    <!-- patient list -->
+    <string name="patient_list">Patient List</string>
+    <string name="capital_patient_list">PATIENT LIST</string>
+    <string name="search_for_patients_input">Search for patients…</string>
+    <string name="invite_new_patient_button">INVITE NEW PATIENT</string>
+
+    <!-- note list -->
+    <string name="notes">Notes</string>
+    <string name="capital_notes">NOTES</string>
+    <string name="search_for_note_input">Search for notes…</string>
+    <string name="add_note_button">ADD NOTE</string>
+    <string name="input_note_txt">Input note…</string>
+    <string name="input_description_txt">Input desciption…</string>
+    <string name="description_note_txt">Description of your note:</string>
+    <string name="your_note_txt">Your note:</string>
+
+    <!-- exercise list -->
+    <string name="exercise">Exercise</string>
+    <string name="exercises">Exercises</string>
+    <string name="exercise_added">Exercise added</string>
+    <string name="exercise_success_message">Successfully added this exercise ✅</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="capital_exercises">EXERCISES</string>
+    <string name="description_txt">Description</string>
+    <string name="advisor_txt">Advised by:</string>
+    <string name="progress_txt">Progress:</string>>
+    <string name="search_for_exercise_input">Search for exercises…</string>
+    <string name="add_exercise_button">ADD EXERCISE</string>
+    <string name="exercise_description">Description of the exercise</string>
+    <string name="input_exercise_title">Exercise title</string>
+    <string name="input_exercise_description">Exercise description</string>
+    <string name="exercise_end_date">End date of the exercise</string>
+    <string name="end_date_placeholder">JAN 01 2020</string>
+
+
+    <!-- diagnosis list -->
+    <string name="diagnosis">Diagnosis</string>
+    <string name="diagnosis_capital">DIAGNOSIS</string>
+    <string name="search_for_diagnosis_input">Search for diagnosis…</string>
+    <string name="add_diagnosis_button">ADD DIAGNOSIS</string>
+    <string name="add_diagnosis_text">Add Diagnosis</string>
+    <string name="diagnosis_title">Diagnosis title</string>
+    <string name="diagnosis_date">Diagnosis date</string>
+    <string name="diagnosis_cause">Cause</string>
+    <string name="diagnosis_advice">Advice</string>
+    <string name="diagnosis_treatment">Treatment</string>
+    <string name="input_diagnosis_title">Diagnosis title</string>
+    <string name="input_diagnosis_cause">Diagnosis cause</string>
+    <string name="input_diagnosis_advice">Diagnosis advice</string>
+    <string name="input_diagnosis_treatment">Diagnosis treatment</string>
+    <string name="input_diagnosis_type">Diagnosis type</string>
+    <string name="diagnosis_success_message">Successfully added this diagnosis ✅</string>
+    <string name="diagnosis_date_placeholder">JAN 01 2020</string>
+
+    <!-- patient profile -->
+    <string name="patient_profile">Patient Profile</string>
+    <string name="more_info_button">More Info</string>
+    <string name="your_appointments">Your appointments</string>
+    <string name="pick_a_doctor_or_specialist">Pick a doctor or specialist 👨‍⚕️️</string>
+    <string name="doctor_slash_specialist">Doctor/Specialist</string>
+    <string name="step_count">Step %d of 4</string>
+    <string name="next">next</string>
+    <string name="reason_for_visit">Reason for visit ⁉️</string>
+    <string name="type_reason_for_visit">Type here your reason for a visit…</string>
+    <string name="pick_an_available_date">Pick an available date 🗓️</string>
+    <string name="previous">previous</string>
+    <string name="pick_an_available_time">Pick an available time 🕓</string>
+    <string name="confirm_the_reservation">Confirm the reservation ✅</string>
+    <string name="doctor_slash_specialist_with_emoji">Doctor/Specialist 👨</string>
+    <string name="location_with_emoji">Location 📍</string>
+    <string name="time_and_date_with_emojis">Time and date 📅 🕓</string>
+    <string name="missing_out">You are missing out!</string>
+    <string name="are_you_sure_calendar_permission">Are you sure you do not want to allow access to your calendar? This way you can get easily reminded for your future appointments!</string>
+    <string name="allow">Allow</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="confirm">Confirm</string>
+    <string name="fill_in_all_fields">Please fill in all fields.</string>
+    <string name="confirmed_reservation">Confirmed reservation ✅</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="pick_a_patient_with_emoji">Pick a patient 🤕</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="gender">Gender:</string>
+    <string name="capital_care_providers">CARE PROVIDERS</string>
+    <string name="completed_txt">Completed</string>
+    <string name="are_you_sure_cancel_appointment">Are you sure you want to cancel this appointment?</string>
+    <string name="cancel">Cancel</string>
+    <string name="timeslots">Timeslots</string>
+    <string name="select_a_date_please">Please, select a date.</string>
+    <string name="select_a_time_please">Please, select a time.</string>
+    <string name="incoming_appointments">Incoming appointments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="finish">Finish</string>
+    <string name="reservation_is_confirmed">Reservation is confirmed!</string>
+    <string name="reserve">Reserve</string>
+    <string name="are_you_sure_add_diagnosis">Are you sure you want to add this diagnosis to the patient?</string>
+    <string name="are_you_sure_add_exercise">Are you sure you want to add this exercise to the patient?</string>
+    <string name="add_note_txt">Add Note</string>
+    <string name="are_you_sure_add_note">Are you sure you want to add this note to the patient?</string>
+    <string name="input_medication_title">Medication title</string>
+    <string name="medication_description">Description of the medication</string>
+    <string name="medication_end_date">End date of the medication</string>
+    <string name="input_medication_description">Medication description</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="are_you_sure_add_medication">Are you sure you want to add this medication to the patient?</string>
+</resources>

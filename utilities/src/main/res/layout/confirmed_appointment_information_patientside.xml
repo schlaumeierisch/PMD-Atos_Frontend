@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSubtitleDoctor"
+        android:text="@string/doctor_slash_specialist_with_emoji"
+        android:layout_width="match_parent"
+        style="@style/confirm_appointment_subtitle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvInfoDoctor"
+        android:layout_marginTop="8dp"
+        tools:text="@string/doctor_title_placeholder"
+        android:layout_width="match_parent"
+        style="@style/label_information_text_black"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSubtitleLocation"
+        android:layout_marginTop="16dp"
+        android:text="@string/location_with_emoji"
+        android:layout_width="match_parent"
+        style="@style/confirm_appointment_subtitle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvInfoLocation"
+        android:layout_marginTop="8dp"
+        tools:text="@string/address_placeholder"
+        android:layout_width="match_parent"
+        style="@style/label_information_text_black"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSubtitleTimeDate"
+        android:layout_marginTop="16dp"
+        android:text="@string/time_and_date_with_emojis"
+        android:layout_width="match_parent"
+        style="@style/confirm_appointment_subtitle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvInfoTimeDate"
+        android:layout_marginTop="8dp"
+        tools:text="@string/date_placeholder"
+        android:layout_width="match_parent"
+        style="@style/label_information_text_black"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSubtitleReasonForVisit"
+        android:layout_marginTop="16dp"
+        android:text="@string/reason_for_visit"
+        android:layout_width="match_parent"
+        style="@style/confirm_appointment_subtitle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvInfoReasonForVisit"
+        android:layout_marginTop="8dp"
+        tools:text="@string/reason_for_visit_placeholder"
+        android:layout_width="match_parent"
+        android:maxLines="3"
+        style="@style/label_information_text_black"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+package nl.medify.patientuser.feature_calendar.domain.use_case
+
+import nl.medify.patientuser.feature_calendar.domain.use_case.cancel_appointment.CancelAppointmentUseCase
+import nl.medify.patientuser.feature_calendar.domain.use_case.get_all_appointments_of_patient.GetAllAppointmentsOfPatientUseCase
+import nl.medify.patientuser.feature_calendar.domain.use_case.get_all_doctors_and_careproviders_of_patient.GetAllDoctorsAndCareProvidersOfPatientUseCase
+import nl.medify.patientuser.feature_calendar.domain.use_case.get_available_timeslots.GetAvailableTimeSlotsOfParticularDay
+import nl.medify.patientuser.feature_calendar.domain.use_case.get_geo_codes.GetGeoCodesUseCase
+import nl.medify.patientuser.feature_calendar.domain.use_case.get_not_available_days.GetNotAvailableDaysInThisMonth
+import nl.medify.patientuser.feature_calendar.domain.use_case.post_create_appointment.PostCreateAppointmentUseCase
+
+data class CalendarUseCases(
+    val getAllAppointmentsOfPatientUseCase: GetAllAppointmentsOfPatientUseCase,
+    val getAllDoctorsAndCareProvidersOfPatientUseCase: GetAllDoctorsAndCareProvidersOfPatientUseCase,
+    val getGeoCodesUseCase: GetGeoCodesUseCase,
+    val postCreateAppointmentUseCase: PostCreateAppointmentUseCase,
+    val cancelAppointmentUseCase: CancelAppointmentUseCase,
+    val getAvailableTimeSlotsOfParticularDay: GetAvailableTimeSlotsOfParticularDay,
+    val getNotAvailableDaysInThisMonth: GetNotAvailableDaysInThisMonth
+)
